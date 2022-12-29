@@ -2,9 +2,14 @@ public class Main {
     public static void main(String[] args) {
 
 int age = 18;
+int childrenage = 18;
 int temperatura = 5;
-int speed = 60;
-  int agepeople =2;
+int speed = 100;
+if (childrenage<5&&childrenage<14){
+    System.out.println("ребенок  может кататься на атракционе, но в сопровождении");
+        }else {
+    System.out.println("может кататься один");
+        }
 if (age>=18&&age<21){
             System.out.println("Ты совершеннолетний и тебе можно все");
 
@@ -16,8 +21,10 @@ if (temperatura<=5||temperatura>=5){
             } else {
     System.out.println ("температура нормальная");
             }
-if (speed == 60){
+if (speed <=60){
     System.out.println("скорость допустимая");
+} else  {
+    System.out.println("вы превысили скорость");
 }
 
 

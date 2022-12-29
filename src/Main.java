@@ -8,6 +8,12 @@ int speed = 100;
 int stoyachie = 60;
 int sidyachie = 52;
 int vagon=stoyachie+sidyachie;
+int one = 1;
+int two=2;
+int three = 3;
+if (one<2&& two<3){
+    System.out.println(three);
+}
 if (childrenage<5&&childrenage<14){
     System.out.println("ребенок  может кататься на атракционе, но в сопровождении");
         }else {

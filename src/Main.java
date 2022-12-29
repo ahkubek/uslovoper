@@ -5,6 +5,9 @@ int age = 18;
 int childrenage = 18;
 int temperatura = 5;
 int speed = 100;
+int stoyachie = 60;
+int sidyachie = 52;
+int vagon=stoyachie+sidyachie;
 if (childrenage<5&&childrenage<14){
     System.out.println("ребенок  может кататься на атракционе, но в сопровождении");
         }else {
@@ -23,8 +26,17 @@ if (temperatura<=5||temperatura>=5){
             }
 if (speed <=60){
     System.out.println("скорость допустимая");
+    if (vagon <=1102){
+                System.out.println("в вагоне еще есть место");
+            }
 } else  {
     System.out.println("вы превысили скорость");
+
+    if (vagon <=102){
+                System.out.println("в вагоне еще есть место");
+            }else {
+        System.out.println("в вагоне места нет");
+    }
 }
 
 
